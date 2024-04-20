@@ -1,9 +1,9 @@
 
 //  Author: PHNO - Tecnólogo | Pós-Graduado
 //  Data Release: 04/11/2023
-//  Versao Codigo: 2.0.1v
+//  Versão Código: 2.0.1v
 //  Replit: @PHNO, @PHREPLIT
-//  Email: phreplit@gmail.com
+//  E-mail: phreplit@gmail.com
 
 // Algoritmo: Metragem e Calculo para Engenharia Civil, algoritmo desenvolvido em c, desenvolvido para estudantes e profissionais de engenharia civil e areas correlatas, como topografia.
 
@@ -37,15 +37,14 @@ printf("\n4.Calcular Perimetro de Imovel (4 L. Diferentes)");
 printf("\n5.Calcular Quantos Metros Quadrados tem um Muro");
 printf("\n6.Calcular Quantos Blocos por M² tera um Muro");
 printf("\n7.Sair\n");
-
 printf("\n[8] Info\n");
-
 printf("\n[9] Sobre \n");
 
 printf("\nDigite sua escolha: ");
 scanf("%d", &op);
 
-while ((c = getchar()) != '\n' && c != EOF) {} // limpar o buffer do teclado.   
+while ((c = getchar()) != '\n' && c != EOF) {
+} // limpar o buffer do teclado.   
 return op; 
 }
 
@@ -95,7 +94,7 @@ printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 } 
 } 
 return 0; 
@@ -120,7 +119,7 @@ printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -153,12 +152,12 @@ resultadofinal = (resultado * resultado2);
 printf("\nA area do terreno com lados diferentes tem %d metros quadrados.\n", resultadofinal);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -174,12 +173,12 @@ resultado = v1 * v2;
 printf("\nO perimetro do imovel com lados iguais tem %d metros.\n", resultado);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -213,12 +212,12 @@ resultadofinal = (resultado + resultado2);
 printf("\nO perimetro do imovel com lados diferentes tem %d metros.\n", resultadofinal);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -236,12 +235,12 @@ resultado = v1 * v2;
 printf("\nO muro tem %d metros quadrados. \n", resultado);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -257,12 +256,12 @@ resultado = v1 * v2;
 printf("\nSera necessario %d blocos para construir um muro com %d metros quadrados. \n", resultado, v1);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -292,7 +291,7 @@ int menu_developer(){
   printf("\n Data Release: 04/11/2023 ");
   printf("\n Versao Codigo: 2.0.1v");
   printf("\n Replit: @PHNO, @PHREPLIT");
-  printf("\n Email: phreplit@gmail.com \n");
+  printf("\n E-mail: phreplit@gmail.com \n");
   printf("\n Teclar enter para retornar ao menu...\n ");
   getchar();
   scanf("c\n");
