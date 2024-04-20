@@ -12,7 +12,7 @@
 #include <math.h> 
 
 int menu(); 
-void op1(); 
+void op1(); // cabecalho
 void op2(); 
 void op3();
 void op4();
@@ -51,7 +51,7 @@ return op;
 
 int main() { // Funcao principal
 
-int op, c;
+int op = 0, c;
 
 while (op != -1) { 
 op = menu(); 
@@ -81,10 +81,10 @@ printf("\n");
 return 0;
 break;
 case 8:
-op8();
+op8(); // funcao
 break;
 case 9:
-menu_developer();
+menu_developer(); // funcao
 break; 
 default: 
 printf("\n");
@@ -298,5 +298,5 @@ int menu_developer(){
   scanf("c\n");
   system("clear");      // linux
   system("tput reset"); // linux
-    return 0;
+  return 0;
 }
