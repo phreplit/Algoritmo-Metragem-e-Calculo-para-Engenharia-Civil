@@ -19,7 +19,7 @@ void op4();
 void op5();
 void op6();
 void op8();
-int menu_developer();
+int menu_desenvolvedor();
 
 int menu() { // Funcao Menu  
 int op, c;
@@ -83,7 +83,7 @@ case 8:
 op8(); // funcao
 break;
 case 9:
-menu_developer(); // funcao
+menu_desenvolvedor(); // funcao
 break; 
 default: 
 printf("\n");
@@ -283,7 +283,7 @@ system("tput reset"); // linux
 return;
 }
 
-int menu_developer(){
+int menu_desenvolvedor(){
   system("clear");      // linux
   system("tput reset"); // linux
   printf("\n Algoritmo: Metragem e Calculo para Engenharia Civil \n");
