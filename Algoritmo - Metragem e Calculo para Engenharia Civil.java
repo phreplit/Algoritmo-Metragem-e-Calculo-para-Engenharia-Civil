@@ -154,6 +154,7 @@ switch (choice) {
   System.out.println("Com base em um bloco de concreto com dimensoes (19Ax19Lx9C) em centimetros em vista de eixo horizontal, e sabendo que calcular um metro quadrado de um muro sera A x L entao 1 bloco de cimento tem 19cm, entao altura com 5 blocos x largura com 5 blocos = 25 blocos, assim um metro quadrado tem 25 blocos entao essa sera a medida padrao. 25 x tantos metros quadrados = a quantidade de blocos para construir um muro.");
   System.out.println("");
   System.out.println("Informacao Importante: ");
+  System.out.println("");
   System.out.println("Algoritmo desenvolvido com variaveis inteiras, nao permite numero e virgula - ex: 2,90 metros mude para 3 metros.");
   System.out.println("");
   Scanner scanner7 = new Scanner(System.in);
