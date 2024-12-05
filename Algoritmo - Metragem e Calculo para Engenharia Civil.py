@@ -135,7 +135,7 @@ while op != -1:
    print('')
    print('Informacao Importante:')
    print('')
-   print('Este algoritmo foi desenvolvido com variaveis inteiras entao nao aceita numeros com virgula ex: 2,90 metros mude para 3 metros.')
+   print('Algoritmo desenvolvido com variaveis inteiras, nao permite numero e virgula - ex: 2,90 metros mude para 3 metros.')
    print('')
    print('Teclar enter para retornar ao menu...')
    a5 = str(input(''))
