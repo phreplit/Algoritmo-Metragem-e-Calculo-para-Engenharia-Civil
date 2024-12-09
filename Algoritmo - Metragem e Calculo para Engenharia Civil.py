@@ -72,7 +72,7 @@ while op != -1:
    print('O perimetro do imovel com lados iguais tem {} metros corridos.'.format(result3))
    print('')
    print('Teclar enter para retornar ao menu...')
-   a2 = str(input(''))
+   a3 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 4:
    print('')
@@ -90,7 +90,7 @@ while op != -1:
    print('O perimetro do imovel com lados diferentes tem {} metros corridos.'.format(resultadofinal))
    print('')
    print('Teclar enter para retornar ao menu...')
-   a2 = str(input(''))
+   a4 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 5:    
    print('')
@@ -102,7 +102,7 @@ while op != -1:
    print('O muro tem {} metros quadrados.'.format(result5))
    print('')
    print('Teclar enter para retornar ao menu...')
-   a2 = str(input(''))
+   a5 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 6:
    v12 = int(25) # sabendo que um metro quadrado tem 25 blocos
@@ -114,7 +114,7 @@ while op != -1:
    print('Sera necessario {} blocos para construir um muro com {} metros quadrados.'.format(result6,v11))
    print('')
    print('Teclar enter para retornar ao menu...')
-   a2 = str(input(''))
+   a6 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 7:
    print('')
@@ -138,7 +138,7 @@ while op != -1:
    print('Algoritmo desenvolvido com variaveis inteiras, nao permite numero e virgula - ex: 2,90 metros mude para 3 metros.')
    print('')
    print('Teclar enter para retornar ao menu...')
-   a5 = str(input(''))
+   a7 = str(input(''))
    reset_text()
   elif op == 9:
    reset_text()
@@ -152,12 +152,12 @@ while op != -1:
    print('E-mail: phreplit@gmail.com')
    print('')
    print('Teclar enter para retornar ao menu...')
-   a5 = str(input(''))
+   a8 = str(input(''))
    reset_text()
   else: 
    print('')
    print('Erro. Opcao Incorreta!')
    print('')
    print('Teclar enter para retornar ao menu...')
-   a6 = str(input(''))
+   a9 = str(input(''))
    reset_text()
